@@ -14,6 +14,7 @@
 		18182E671B931CAD00DD3DE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18182E661B931CAD00DD3DE4 /* Images.xcassets */; };
 		18182E6A1B931CAD00DD3DE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18182E681B931CAD00DD3DE4 /* LaunchScreen.xib */; };
 		18182E761B931CAD00DD3DE4 /* meituanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18182E751B931CAD00DD3DE4 /* meituanTests.m */; };
+		18182E811B931D8900DD3DE4 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 18182E801B931D8900DD3DE4 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		18182E6F1B931CAD00DD3DE4 /* meituanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meituanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18182E741B931CAD00DD3DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18182E751B931CAD00DD3DE4 /* meituanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = meituanTests.m; sourceTree = "<group>"; };
+		18182E7F1B931D8900DD3DE4 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		18182E801B931D8900DD3DE4 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		18182E4D1B931CAD00DD3DE4 = {
 			isa = PBXGroup;
 			children = (
+				18182E7F1B931D8900DD3DE4 /* Dog.h */,
+				18182E801B931D8900DD3DE4 /* Dog.m */,
 				18182E581B931CAD00DD3DE4 /* meituan */,
 				18182E721B931CAD00DD3DE4 /* meituanTests */,
 				18182E571B931CAD00DD3DE4 /* Products */,
@@ -221,6 +226,7 @@
 			files = (
 				18182E621B931CAD00DD3DE4 /* ViewController.m in Sources */,
 				18182E5F1B931CAD00DD3DE4 /* AppDelegate.m in Sources */,
+				18182E811B931D8900DD3DE4 /* Dog.m in Sources */,
 				18182E5C1B931CAD00DD3DE4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
